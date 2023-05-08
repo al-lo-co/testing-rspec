@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+RSpec.describe 'not to method' do
+  it 'checks that two values do not match' do
+    expect(5).not_to eq('Hello')
+  end
+end
